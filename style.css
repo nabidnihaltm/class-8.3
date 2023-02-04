@@ -1,0 +1,46 @@
+/* css start section  */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+.container{
+    width: 965px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* css end section  */
+#navigation{
+    background-color: #290000;
+}
+#navigation div.row{
+    justify-content: space-between;
+    align-items: center;
+}
+#navigation ul li a{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 55px 20px;
+    font-weight: 500;
+    margin: 10px 0;
+    display: inline-block;
+    transition: 0.3s;
+}
+#navigation ul li:hover a{
+    background-color: #76c38f;
+    color: #141f1e;
+    border-radius: 15px;
+}
